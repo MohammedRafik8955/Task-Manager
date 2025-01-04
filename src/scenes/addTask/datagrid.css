@@ -1,0 +1,81 @@
+/* Root Container Styling */
+.MuiDataGrid-root {
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    background: linear-gradient(145deg, #f9f9fb, #e4e8f0) !important; /* Light, angelic gradient background */
+    border-radius: 8px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    overflow: hidden !important;
+  }
+  
+  /* Cell Styling */
+  .MuiDataGrid-cell {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; /* Subtle cell border */
+    color: #4a4a4a !important; /* Neutral text color */
+    font-weight: 500 !important; /* Semi-bold text */
+    transition: background-color 0.3s ease, color 0.3s ease !important;
+  }
+  
+  /* Cell Hover Effect */
+  .MuiDataGrid-cell:hover {
+    background-color: rgba(135, 206, 250, 0.1) !important; /* Soft sky-blue hover */
+    cursor: pointer !important;
+  }
+  
+  /* Header Styling */
+  .MuiDataGrid-columnHeaders {
+    background: linear-gradient(145deg, #ffffff, #f3f4f6) !important; /* Angelic gradient for headers */
+    color: #2c3e50 !important; /* Professional, dark text color */
+    font-weight: 600 !important; /* Bold header text */
+    text-transform: uppercase !important; /* Header text styling */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  /* Virtual Scroller Background */
+  .MuiDataGrid-virtualScroller {
+    background-color: #f9f9fb !important; /* Soft, light background */
+  }
+  
+  /* Footer Styling */
+  .MuiDataGrid-footerContainer {
+    border-top: 1px solid rgba(0, 0, 0, 0.1) !important; /* Subtle top border */
+    background: linear-gradient(145deg, #e8ecf1, #d6dae0) !important; /* Angelic gradient for footer */
+    color: #4a4a4a !important; /* Footer text color */
+    font-weight: 500 !important;
+  }
+  
+  /* Pagination Buttons */
+  .MuiPaginationItem-root {
+    color: #2c3e50 !important; /* Dark, professional text color */
+    transition: background-color 0.3s ease, color 0.3s ease !important;
+  }
+  
+  .MuiPaginationItem-root:hover {
+    background-color: rgba(135, 206, 250, 0.2) !important; /* Soft sky-blue hover */
+  }
+  
+  /* Scrollbar Styling */
+  .MuiDataGrid-root::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  .MuiDataGrid-root::-webkit-scrollbar-track {
+    background: #f9f9fb !important; /* Light scrollbar track */
+  }
+  
+  .MuiDataGrid-root::-webkit-scrollbar-thumb {
+    background: #d6dae0 !important; /* Subtle scrollbar thumb */
+    border-radius: 4px !important;
+  }
+  
+  .MuiDataGrid-root::-webkit-scrollbar-thumb:hover {
+    background: #b0b5bd !important; /* Darker thumb on hover */
+  }
+  
+
+  .MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.css-v3zyv7-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+
+    padding-right: 32px;
+    color: black;
+    border: 1px solid gray;
+    margin: 2px;
+  }

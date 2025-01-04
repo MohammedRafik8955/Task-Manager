@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.MuiBox-root.css-y0u0hj {
+  right: 10px;
+  position: absolute;
+
+}
+
+
+.css-1grk8yk {
+  margin: 40px 0 0 0;
+  height: 70vh !important;
+}
+
+
+/* ==================start Sidebar ============================ */
+/* Sidebar Container Styling */
+.pro-sidebar-inner {
+  background: linear-gradient(145deg, #1e1e2f, #25253f) !important; /* Gradient background */
+  border-right: 1px solid #3a3a5a; /* Thin border */
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+.css-aruo9g-MuiTypography-root {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif; /* Clean and modern font */
+  font-size: 26px !important; /* Adjusted for a professional look */
+  font-weight: 600 !important; /* Semi-bold for better readability */
+  line-height: 1.5; /* Slightly increased for breathing room */
+  color: #f5f5f5 !important; /* Softer light gray for text */
+  letter-spacing: 0.5px; /* Subtle spacing for a premium touch */
+  text-transform: capitalize !important; /* Makes headings look more polished */
+  margin: 10px 0; /* Consistent margin */
+  transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for interactive designs */
+.css-aruo9g-MuiTypography-root:hover {
+  color: #ffffff; /* Pure white on hover */
+  text-decoration: underline; /* Subtle underline for emphasis */
+}
+
+/* Sidebar Icon Wrapper */
+.pro-icon-wrapper {
+  background-color: #2f2f49 !important; /* Slightly darker icon background */
+  border-radius: 50%; /* Circular icons */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.pro-icon-wrapper:hover {
+  background-color: #3d3d60 !important; /* Lighten on hover */
+  transform: scale(1.1); /* Slight zoom */
+}
+
+/* Menu Item Styling */
+.pro-inner-item {
+  padding: 12px 20px !important; /* Comfortable padding */
+  border-radius: 8px; /* Rounded menu items */
+  margin: 5px 0; /* Spacing between items */
+  transition: all 0.3s ease; /* Smooth animations */
+  color: #c7c9d9 !important; /* Soft text color */
+  font-weight: 500; /* Medium font weight */
+}
+
+.pro-inner-item:hover {
+  background: rgba(255, 255, 255, 0.1) !important; /* Glass effect */
+  color: #ffffff !important; /* Bright text on hover */
+  transform: translateX(8px); /* Slide-in effect */
+}
+
+/* Active Menu Item */
+.pro-menu-item.active {
+  background: linear-gradient(145deg, #5e5eff, #7373ff) !important; /* Bright gradient for active item */
+  color: #ffffff !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle depth */
+}
+
+/* Submenu Styling */
+.pro-menu .pro-menu-item > .pro-inner-item {
+  padding-left: 30px !important; /* Indent for submenus */
+  font-size: 14px; /* Slightly smaller text */
+}
+
+/* Sidebar Title Styling */
+.sidebar-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  margin: 15px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* User Info Styling */
+.user-info {
+  text-align: center;
+  margin: 20px 0;
+  color: #e0e0f0;
+}
+
+.user-info .user-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user-info .user-role {
+  font-size: 14px;
+  font-style: italic;
+  color: #a5a5c1;
+}
+
+/* Logout Button */
+.logout-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(145deg, #ff6b6b, #ff8181) !important; /* Gradient for logout button */
+  color: #ffffff !important;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.logout-btn:hover {
+  background: linear-gradient(145deg, #ff5151, #ff6b6b) !important; /* Darker hover */
+  box-shadow: 0 4px 8px rgba(255, 107, 107, 0.5);
+}
+/* ======================================= */
+
+@media only screen and (min-width: 1650px) {
+  .css-1grk8yk {
+    margin: 40px 0 0 0;
+    height: 75vh !important;
+  }
+  
+}
+@media only screen and (min-width: 1850px) {
+  .css-1grk8yk {
+    margin: 40px 0 0 0;
+    height: 80vh !important;
+  }
+  
+}
+@media only screen and (min-width: 2400px) {
+  .css-1grk8yk {
+    margin: 40px 0 0 0;
+    height: 85vh !important;
+  }
+  
+}
+
+
+/* ================TeamTable  start======================== */
+strong button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-3lgpxb-MuiButtonBase-root-MuiButton-root {
+  position: relative;
+  padding: 9px;
+  min-width: 20%;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+strong .css-1d6wzja-MuiButton-startIcon {
+
+  margin: 0;
+}
+
+strong button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedError.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-thfn89-MuiButtonBase-root-MuiButton-root{
+  padding: 9px;
+  min-width: 20%;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorError.MuiIconButton-sizeMedium.total-edit.css-6nackc-MuiButtonBase-root-MuiIconButton-root{
+  padding: 9px;
+  min-width: 20%;
+  border-radius: 20px;
+  margin-right: 10px;
+  background-color: #141b2d;
+  color: #ffffff;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorError.MuiIconButton-sizeMedium.css-6nackc-MuiButtonBase-root-MuiIconButton-root{
+  padding: 9px;
+  min-width: 20%;
+  border-radius: 20px;
+  margin-right: 10px;
+  background-color: #f44336;
+  color: #ffffff;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorError.MuiIconButton-sizeMedium.css-6nackc-MuiButtonBase-root-MuiIconButton-root:hover {
+  
+  background-color: #d32f2f;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorError.MuiIconButton-sizeMedium.total-edit.css-6nackc-MuiButtonBase-root-MuiIconButton-root:hover{
+  padding: 9px;
+  min-width: 20%;
+  border-radius: 20px;
+  margin-right: 10px;
+  background-color: #141b2d;
+  color: #ffffff;
+}
+/* ==============TeamTable end==================== */

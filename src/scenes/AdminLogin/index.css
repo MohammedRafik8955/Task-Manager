@@ -1,0 +1,91 @@
+.warning-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+  }
+
+  .admin-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  }
+  
+  .form-box {
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 600px;
+    max-height:800px ;
+    width: 100%;
+  }
+  
+  .form-header {
+    text-align: center;
+    color: #4c516d;
+    margin-bottom: 10px;
+  }
+  
+  .form-subheader {
+    text-align: center;
+    color: #838ba0;
+    margin-bottom: 20px;
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input {
+    margin-bottom: 20px; /* Added gap between the input fields */
+  }
+  
+  .form-button {
+    background-color: #6c63ff;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    box-shadow: 0 4px 15px rgba(108, 99, 255, 0.3);
+  }
+  
+  .form-button:hover {
+    background-color: #5149d8;
+  }
+  
+  .alert-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+  }
+  
+  .warning-message {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  
+  .MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.css-u7c0k7-MuiInputBase-root-MuiFilledInput-root {
+    background: linear-gradient(135deg, #a5c4f3, #6b92d1)
+}
+
+
+  
